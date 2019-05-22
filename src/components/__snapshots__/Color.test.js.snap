@@ -11,7 +11,7 @@ exports[`Color component renders a color 1`] = `
     <div
       style={
         Object {
-          "backgroundColor": "#6F0300",
+          "backgroundColor": "#FF0000",
           "display": "inline-block",
           "height": "0.8em",
           "width": "0.8em",
@@ -23,26 +23,23 @@ exports[`Color component renders a color 1`] = `
     Hex
   </dt>
   <dd>
-    #6F0300
+    #FF0000
   </dd>
   <dt>
     RGB
   </dt>
   <dd>
     <p>
-      Red - 
-      111
-       
+      Red = 
+      255
     </p>
     <p>
-      Blue - 
+      Blue = 
       0
-       
     </p>
     <p>
-      Green - 
-      3
-       
+      Green = 
+      0
     </p>
   </dd>
 </d1>

@@ -6,19 +6,20 @@ function Colors({ colors }) {
   const colorList = colors.map(color => {
     return (
       <li key={color.name}>
-        <Color name={color.name} rgb={color.rgb} />
+        <Color name={color.name} hex ={color.hex} />
       </li>
+
     );
   });
 
   return (
-    <ul>
+    <u1>
       {colorList}
-    </ul>
+    </u1>
   );
 }
 
-Colors.pwropTypes = {
+Colors.propTypes = {
   colors: PropTypes.array.isRequired
 };
 

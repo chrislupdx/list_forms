@@ -3,10 +3,10 @@ import { shallow } from 'enzyme';
 import Colors from './Colors';
 
 describe('Colors component', () => {
-  it('renders a color', () => {
+  it('renders a colors', () => {
     const colors = [
-      { name: 'Red', rgb: { red: 255, green: 0, blue: 0 } },
-      { name: 'Blue', rgb: { red: 0, green: 0, blue: 333 } },
+      { name: 'Red', hex: '#FF0000' },
+      { name: 'Blue', hex: '#0000FF' },
     ];
     const wrapper = shallow(<Colors colors={colors} />);
     expect(wrapper).toMatchSnapshot();
